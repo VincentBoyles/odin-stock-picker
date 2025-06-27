@@ -11,7 +11,7 @@ profitable = {}
 end
 
 profitable.select do |k, v| 
-    puts [k] if v == profitable.values.max()
+    return [k] if v == profitable.values.max()
   end
 end
 
